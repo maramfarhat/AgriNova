@@ -16,17 +16,19 @@
 
 <table>
   <tr>
-    <td align="center"><b>Home</b><br><img src="docs/screenshots/home.png" width="180" alt="Home" /></td>
+    <td align="center"><b>Home</b><br><img src="docs/screenshots/home.jpg" width="180" alt="Home" /></td>
     <td align="center"><b>Irrigation</b><br><img src="docs/screenshots/irrigation.png" width="180" alt="Irrigation" /></td>
-    <td align="center"><b>Weather</b><br><img src="docs/screenshots/weather.png" width="180" alt="Weather" /></td>
+    <td align="center"><b>Weather</b><br><img src="docs/screenshots/weather.jpg" width="180" alt="Weather" /></td>
   </tr>
   <tr>
-    <td align="center"><b>Marketplace</b><br><img src="docs/screenshots/marketplace.png" width="180" alt="Marketplace" /></td>
-    <td align="center"><b>Disease Detection</b><br><img src="docs/screenshots/disease.png" width="180" alt="Disease Detection" /></td>
-    <td align="center"><b>Robot Control</b><br><img src="docs/screenshots/robot.png" width="180" alt="Robot Control" /></td>
+    <td align="center"><b>Marketplace</b><br><img src="docs/screenshots/marketplace.jpg" width="180" alt="Marketplace" /></td>
+    <td align="center"><b>Disease Detection</b><br><img src="docs/screenshots/disease.jpg" width="180" alt="Disease Detection" /></td>
+    <td align="center"><b>Robot Control</b><br><img src="docs/screenshots/robot.jpg" width="180" alt="Robot Control" /></td>
   </tr>
   <tr>
-    <td align="center" colspan="3"><b>Agribot</b><br><img src="docs/screenshots/agribot.png" width="180" alt="Agribot" /></td>
+    <td align="center" colspan="3"><b>Agribot</b><br><img src="docs/screenshots/agribot.jpg" width="180" alt="Agribot" /></td>
+  </tr>
+    <td align="center" colspan="3"><b>Dashboard</b><br><img src="docs/screenshots/dashboard.png" width="180" alt="dashboard" /></td>
   </tr>
 </table>
 
