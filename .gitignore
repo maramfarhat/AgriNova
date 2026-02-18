@@ -1,5 +1,7 @@
 # Python
 .venv/
+modelia/historique/
+modelia/images/
 venv/
 __pycache__/
 *.pyc
