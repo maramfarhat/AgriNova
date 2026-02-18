@@ -1,6 +1,4 @@
-# AgriNova
-smart farm managment app using ia / iot 
-# 🌾 AGRINOVA— Smart Farm Management
+# 🌾 AGRINOVA — Smart Farm Management
 
 <div align="center">
 
@@ -14,15 +12,37 @@ smart farm managment app using ia / iot
 
 ---
 
+## 📱 Screenshots
+
+<table>
+  <tr>
+    <td align="center"><b>Home</b><br><img src="docs/screenshots/home.png" width="180" alt="Home" /></td>
+    <td align="center"><b>Irrigation</b><br><img src="docs/screenshots/irrigation.png" width="180" alt="Irrigation" /></td>
+    <td align="center"><b>Weather</b><br><img src="docs/screenshots/weather.png" width="180" alt="Weather" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Marketplace</b><br><img src="docs/screenshots/marketplace.png" width="180" alt="Marketplace" /></td>
+    <td align="center"><b>Disease Detection</b><br><img src="docs/screenshots/disease.png" width="180" alt="Disease Detection" /></td>
+    <td align="center"><b>Robot Control</b><br><img src="docs/screenshots/robot.png" width="180" alt="Robot Control" /></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3"><b>Agribot</b><br><img src="docs/screenshots/agribot.png" width="180" alt="Agribot" /></td>
+  </tr>
+</table>
+
+> 💡 Ajoutez vos captures d'écran dans `docs/screenshots/` avec les noms : `home.png`, `irrigation.png`, `weather.png`, `marketplace.png`, `disease.png`, `robot.png`, `agribot.png`
+
+---
+
 ## 📋 Overview
 
-**AGRINOVA* is a comprehensive smart agriculture application that enables farmers to monitor, automate, and optimize their operations through real-time IoT sensor data, intelligent irrigation control, weather integration, and AI-assisted crop disease detection.
+**AGRINOVA** is a comprehensive smart agriculture application that enables farmers to monitor, automate, and optimize their operations through real-time IoT sensor data, intelligent irrigation control, weather integration, and AI-assisted crop disease detection.
 
 Built with **Flutter** for cross-platform deployment (Android & iOS), the app connects to **ESP32** microcontrollers for sensor data acquisition and actuator control, while leveraging **Firebase** for authentication and cloud services.
 
 ---
 
- ✨ Key Features
+## ✨ Key Features
 
 ### 🌡️ **IoT Dashboard**
 - Real-time monitoring of environmental sensors: temperature, humidity, soil moisture, water level, pH
@@ -60,20 +80,8 @@ Built with **Flutter** for cross-platform deployment (Android & iOS), the app co
 - Firebase Authentication
 - Google Sign-in
 - Multi-role user support
-## 📋 Overview
 
 ---
-<img width="367" height="793" alt="Capture d&#39;écran 2025-04-30 182801" src="https://github.com/user-attachments/assets/8c4fff77-2d72-4d81-8e18-6967510f2288" />
-<img width="370" height="735" alt="irrig" src="https://github.com/user-attachments/assets/5e98158f-e503-420a-9a4a-736916c226b6" />
-
-![METE](https://github.com/user-attachments/assets/bc4212a5-6687-4760-8041-14db618bcf63)
-
-![MARCHE](https://github.com/user-attachments/assets/8ff14a83-eaed-477b-8e02-c56c15967a59)
-![MALAD](https://github.com/user-attachments/assets/1204960f-db09-43b4-ad88-15335198598b)
-![CONTROL](https://github.com/user-attachments/assets/89d1df8b-53a2-416c-99c3-ccd3bb9660ae)
-![AGRI](https://github.com/user-attachments/assets/dd64f139-c64d-49ae-a6b1-fd20b9dc7708)
-
-
 
 ## 🛠️ Tech Stack
 
@@ -132,8 +140,8 @@ lib/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/MARAMFARM.git
-   cd MARAMFARM
+   git clone https://github.com/maramfarhat/AgriNova.git
+   cd AgriNova
    ```
 
 2. **Install dependencies**
@@ -169,8 +177,6 @@ The app communicates with an ESP32 via HTTP. Expected endpoints:
 | `/weather` | POST | Body: `{"will_rain": true/false}` — Receives weather forecast for automation |
 
 ---
-
-
 
 ## 📄 License
 
