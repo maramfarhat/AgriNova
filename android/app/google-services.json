@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689694982205",
+    "project_id": "authfarme",
+    "storage_bucket": "authfarme.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689694982205:android:c9f91c7b71d425091fea54",
+        "android_client_info": {
+          "package_name": "com.example.farm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689694982205-cbjo1gdjfpn75kqbmd6sjnl40p2dr9ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCugrSCgLkCrwwuvZvyJM0-Q0bgZUsVxU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689694982205-cbjo1gdjfpn75kqbmd6sjnl40p2dr9ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

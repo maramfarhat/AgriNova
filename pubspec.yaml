@@ -1,0 +1,65 @@
+name: farm
+description: A smart farm management application
+
+# Version
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  http: ^1.1.0
+  intl: ^0.19.0
+  sqflite: ^2.3.0
+  collection: ^1.17.0
+  path: ^1.8.3
+  fl_chart: ^0.66.0
+  shared_preferences: ^2.2.2
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  uuid: ^4.3.3
+  flutter_joystick: ^0.0.4
+  flutter_launcher_icons: ^0.13.1
+  url_launcher: ^6.1.14
+  google_maps_flutter: ^2.5.0
+  image_picker: ^1.0.4
+  webview_flutter: ^4.4.2
+  flutter_localizations:
+    sdk: flutter
+  hex: ^0.2.0
+  
+  # Social Auth
+  google_sign_in: ^6.2.1
+  permission_handler: ^11.0.1
+  path_provider: ^2.1.2
+  web_socket_channel: ^2.4.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/logo.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/glovo.png
+    - assets/images/logo.png
+    - assets/images/feuil.png
+    - assets/images/login.png
+  
+  
